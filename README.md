@@ -1,2 +1,2 @@
-# JustAButton
-Just a Button
+Simple Button correlated to another class.
+

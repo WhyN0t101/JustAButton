@@ -25,7 +25,7 @@ public class MyFrame extends JFrame {
          //label = new JLabel();
          //label.setIcon(icon2);
          //label.setBounds(150, 250, 150, 150);
-         //ImageIcon icon = new ImageIcon("‪E:\\Projects\\nebula.jpg");
+         //ImageIcon icon = new ImageIcon("‪ImageLocal");
          button = new JButton();
          button.setBounds(125,100,250,100);
          button.addActionListener(e -> System.out.println("Hi"));
@@ -49,7 +49,7 @@ public class MyFrame extends JFrame {
        this.setVisible(true);
        this.add(button);
        this.setLayout(null);
-       ImageIcon image = new ImageIcon("E:\\Projects\\logo.png");
+       ImageIcon image = new ImageIcon("ImageLocal");
        this.setIconImage(image.getImage()); // muda o icon da janela
        this.getContentPane().setBackground(new Color(123,50,250)); // back ground color
        //this.add(label);

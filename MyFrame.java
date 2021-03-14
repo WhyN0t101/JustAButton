@@ -43,14 +43,14 @@ public class MyFrame extends JFrame {
          
          
        this.setTitle("Test Gui"); // Titulo
-       this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // ação do botao close
-       this.setResizable(false); //Impossibilita o Rezise da janela
-       this.setSize(500,500); // tamanha da janela
+       this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Action of the button on close
+       this.setResizable(false); //Doesnt allow window to be resized
+       this.setSize(500,500); // Window Size
        this.setVisible(true);
        this.add(button);
        this.setLayout(null);
        ImageIcon image = new ImageIcon("ImageLocal");
-       this.setIconImage(image.getImage()); // muda o icon da janela
+       this.setIconImage(image.getImage()); //Changes the icon of the window
        this.getContentPane().setBackground(new Color(123,50,250)); // back ground color
        //this.add(label);
        

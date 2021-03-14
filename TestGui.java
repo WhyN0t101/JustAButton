@@ -19,7 +19,7 @@ public class TestGui {
        frame.getContentPane().setBackground(new Color(123,50,250)); 
        
       */ 
-       MyFrame myFrame = new MyFrame();
+       MyFrame myFrame = new MyFrame();  // class correlation to MyFrame
     }
     
 }
